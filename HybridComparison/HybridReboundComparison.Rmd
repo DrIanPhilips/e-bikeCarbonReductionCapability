@@ -1,0 +1,50 @@
+---
+title: "Induced demand Rebound effect from ebikes in the CREDS note "
+author: "Ian Philps i.philips@leeds.ac.uk, Jillian Anable J.L.Anable@leeds.ac.uk"
+date: "02/05/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How much e-bike induced mileage would be needed to cancel out the CO2 reduction capablity of e-bikes? 
+
+The mean car km replacement capabilty per person per year is 
+~5000
+
+ebikes are almost 8 times more efficient than a petrol car.  
+CREDS note box 1:  
+
+Lifecycle CO2 emissions g/km
+E-bike	22
+Battery electric car (Nissan leaf)	104 
+hybrid-car (Toyota Prius) 	168
+Petrol car (EU average)	258
+
+
+if each car km replaced induces 7.63 further km the total induced travel is: 
+
+```{r}
+168/22
+
+5000* 7.63 
+
+```
+
+
+## Compare induced km to a well known journey 
+The distance from London to Leeds return is 194 miles 
+
+```{r}
+(194*2) * 1.602
+
+```
+
+This is the equivalent of 61 return trips which is more than once per week
+
+```{r}
+(5000* 7.63 )/ ((194*2) * 1.602)
+```
+
