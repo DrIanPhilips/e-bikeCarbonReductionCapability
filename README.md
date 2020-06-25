@@ -12,4 +12,6 @@ There's also a copy on ResearchGate :
 https://www.researchgate.net/publication/341909271_e-bike_carbon_savings_-how_much_and_where
 DOI: 10.13140/RG.2.2.20431.71846
 
-A preprint of the journal article is available on Researchgate: DOI: 10.13140/RG.2.2.27729.97120 
+A preprint of the journal article is available on Researchgate: Philips,I Anable, J,Chatterton, T. E-bikes and their capability to reduce car
+CO2 emissions. DOI: 10.13140/RG.2.2.27729.97120 
+https://www.researchgate.net/publication/342437510_E-bikes_and_their_capability_to_reduce_car_CO2_emissions?channel=doi&linkId=5ef45a9c299bf15a2ea097c9&showFulltext=true
