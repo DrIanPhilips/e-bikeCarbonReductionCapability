@@ -1,0 +1,1 @@
+These scripts differ from the car_lifecycle_e-bike life_cycle scripts

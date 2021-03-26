@@ -1,0 +1,51 @@
+---
+title: "Cumulative distribution of car km travelled by trip length"
+author: "Ian Philips"
+date: "22/03/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+The graph shows that approximately 40% of private car km travelled is composed of trips under 20km.  A slightly lower proportion of car km travelled in the morning are from trips of under 20km  than trips made in the afternoon.  
+
+In the simulation the distributions for car km travelled in the morning and afternoon are used.
+
+
+
+```{r}
+#graph trip distribution 
+
+library(tidyverse)
+dist <- read_csv("summary_of_vkt_distributions.csv")
+
+#wrangle
+dist_long <- dist %>% pivot_longer(cols= starts_with("pr"),names_to =  "distance",values_to = "proportion")
+dist_long$distance <- substring(dist_long$distance, 17, 18)
+dist_long$distance[substring(dist_long$distance,2,2)== "k"] <- substring(dist_long$distance,1,1)
+dist_long$distance<- as.numeric(dist_long$distance)
+
+library(hrbrthemes)
+dist_long %>% 
+  ggplot()+
+  geom_smooth(aes(colour = distrib,x = distance,y = proportion))+
+  ggtitle("Distribution: proportion of car km travelled by trip distance") +
+  annotate(geom = "vline",
+           x = 20,
+           xintercept = 20,
+           linetype = "dashed") +
+  annotate(geom = "text",
+           label = "mean maximum e-bike trip distance (20km)",
+           x = 20,
+           y = c(0.2),
+           angle = 90, 
+           vjust = 1)+
+    theme_ipsum() +
+  theme(plot.title = element_text(size = 10, face = "bold"))+
+  xlab("Trip distance")+
+  labs(fill='Distribution')
+  
+```
+
