@@ -29,6 +29,6 @@ https://github.com/DrIanPhilips/e-bikeCarbonReductionCapability
 "WD21NM" 2021 Ward name
 "LAD21CD"  2021 Local Authority District Code                                    
 "LAD21NM"  2021 Local Authority District name
-"km_pp" km per person (ususal resident population calculated for 2011 during the MOT project)
-"outlier_flag2" LSOAs where km_pp is greater than 50000.  These LSOAs should be treated with caution  - these LSOAs plus a few others hilighted in "outlier_flag" were more difficult to model 
+"km_pp" km per person ( total var km in LSOA / ususal resident population calculated for 2011 during the MOT project).  see paper for refs to MOT project. 
+"outlier_flag2" LSOAs where km_pp is greater than 50000.  These LSOAs should be treated with caution  - these LSOAs plus a few others hilighted in "outlier_flag" were more difficult to model - high mileages indicate for example presence of lease fleet operators. 
 
