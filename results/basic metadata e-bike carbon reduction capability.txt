@@ -5,7 +5,9 @@ code and further information
 https://github.com/DrIanPhilips/e-bikeCarbonReductionCapability
 
 "lsoa11cd",2011 LSOA code
-  "outlier_flag", A small number of LSOAs were difficult to model flagged ad TRUE, and the results here should be treated with more caution,                                       "meanweightedkm_pp"  mean car km travelled per day accounting for car ownership gender and area type                                    "mean_capability_daily_ebike_distance"  the physical capability to travel (max 1 hour morning and 1 hour evening)            
+  "outlier_flag", A small number of LSOAs were difficult to model flagged ad TRUE, and the results here should be treated with more caution,                                       
+"meanweightedkm_pp"  mean car km travelled per day accounting for car ownership gender and area type                                    
+"mean_capability_daily_ebike_distance"  the physical capability to travel (max 1 hour morning and 1 hour evening)            
 "mean_capability_daily_bike_distance"   the physical capability to travel (max 1 hour morning and 1 hour evening)
 "mean_capability_daily_walk_distance"   the physical capability to travel (max 1 hour morning and 1 hour evening)                
 "mean_ebike_co2_reduction_capability_per_pers_pa_Tonnes" mean carbon reduction capability per person pa by replacing car km with e-bike km per LSOA
