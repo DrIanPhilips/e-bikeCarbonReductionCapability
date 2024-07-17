@@ -1,0 +1,30 @@
+Basic metadata for estimates of ebike carbon reduction capability and other variables reported in:  
+Philips, I., Anable, J., Chatterton, T., 2022. E-bikes and their capability to reduce car CO2 emissions. Transp. Policy https://doi.org/10.1016/j.tranpol.2021.11.019
+
+code and further information 
+https://github.com/DrIanPhilips/e-bikeCarbonReductionCapability
+
+"lsoa11cd",2011 LSOA code
+  "outlier_flag", A small number of LSOAs were difficult to model flagged ad TRUE, and the results here should be treated with more caution,                                        "mean_capability_daily_ebike_distance"  the physical capability to travel (max 1 hour morning and 1 hour evening)            
+"mean_capability_daily_bike_distance"   the physical capability to travel (max 1 hour morning and 1 hour evening)
+"mean_capability_daily_walk_distance"   the physical capability to travel (max 1 hour morning and 1 hour evening)                
+"mean_ebike_co2_reduction_capability_per_pers_pa_Tonnes"  estimation of carbon reduction capability per person (used usual resident population from 2011 census for population)
+"mean_car_km_replace_capability_by_ebike_per_pers_pa"   
+"mean_bike_co2_reduction_capability_per_pers_pa_Tonnes" 
+"mean_car_km_replace_capability_by_bike_per_pers_pa"    
+"mean_walk_co2_reduction_capability_per_pers_pa_Tonnes"  
+"mean_car_km_replace_capability_by_walk_per_pers_pa"    
+"total_walk_co2_reduction_capability" total for the LSOA
+"total_bike_co2_reduction_capability"
+"total_ebike_co2_reduction_capability"
+"total_car_km_replace_capability_by_bike_pa"
+"total_car_km_replace_capability_by_walk_pa" 
+"vulnerability_index"    As calculated for the paper by Mattioli et al 2019 (see paper for full details)
+"vulnerability_ebike_co2_reduction_segment"             
+"OAC_supergroup"  See the ONS 2011 Output Area Classification (see ref in paper)    
+"WD21CD"       2021 Ward boundaries                                         
+"WD21NM" 2021 Ward name
+"LAD21CD"  2021 Local Authority District Code                                    
+"LAD21NM"  2021 Local Authority District name
+
+
